@@ -1,0 +1,15 @@
+{
+   "compilerOptions": {
+     "esModuleInterop": true,
+    "moduleResolution": "node",
+    "target": "ES6",
+    "module": "CommonJS",
+    "lib": ["ES2020"],
+    "types": ["node"]
+  },
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
